@@ -26,7 +26,7 @@ To create a new case in Autopsy, import a disk image as evidence, configure inge
 
 1. **Launch Autopsy**
    - Start Autopsy and wait for the welcome screen.
-   - _[Insert screenshot: `images/autopsy_welcome.png` ]_
+<img width="689" height="504" alt="image" src="https://github.com/user-attachments/assets/1c1f4d93-bbbe-4af6-90d5-24b369674f07" />
 
 2. **Create New Case**
    - Click *Create New Case*.
@@ -34,17 +34,16 @@ To create a new case in Autopsy, import a disk image as evidence, configure inge
      - Case name: `Exp5_Autopsy_Practice_<YourInitials>`
      - Examiner: `<Your Name>`
      - Case number: `EXP5-2025-<ID>`
-   - _[Insert screenshot: `images/new_case.png` ]_
+<img width="1008" height="608" alt="image" src="https://github.com/user-attachments/assets/c423b2cf-d9d8-48d6-aa3d-6ab2c207028e" />
 
 3. **Configure Case Database**
    - Select *Single-user database* (for practice).
    - Confirm DB location inside the case folder.
-   - _[Insert screenshot: `images/db_config.png` ]_
 
 4. **Add Data Source**
    - Add → *Disk Image or VM file* → browse to `evidence01.E01`.
    - Verify the image hash matches the saved hash file.
-   - _[Insert screenshot: `images/add_data_source.png` ]_
+<img width="1089" height="707" alt="image" src="https://github.com/user-attachments/assets/d95540b3-e42a-4001-9ca2-c461c71d6945" />
 
 5. **Configure Ingest Modules**
    - Select modules:
@@ -54,17 +53,17 @@ To create a new case in Autopsy, import a disk image as evidence, configure inge
      - EXIF Parser
      - Hash Lookup
    - Save ingest profile for reproducibility.
-   - _[Insert screenshot: `images/ingest_modules.png` ]_
+<img width="1091" height="709" alt="image" src="https://github.com/user-attachments/assets/1b80a714-4b15-4457-8bca-8dca231eac3b" />
 
 6. **Start Ingest / Analysis**
    - Click *Finish* to start ingest.
    - Monitor the ingest progress pane and record start/end times.
-   - _[Insert screenshot: `images/ingest_progress.png` ]_
+<img width="1100" height="694" alt="image" src="https://github.com/user-attachments/assets/6786254b-2a1d-45b7-abca-68941c63a35f" />
 
 7. **Initial Observations & Export**
    - Check *File Types* and *Keyword Hits* for quick findings.
    - Export an ingest summary (HTML/CSV) for reporting.
-   - _[Insert screenshot: `images/results_overview.png` ]_
+<img width="1095" height="708" alt="image" src="https://github.com/user-attachments/assets/839cc71d-d575-478d-84fa-52735e56b8ad" />
 
 ---
 
