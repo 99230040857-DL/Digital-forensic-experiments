@@ -34,8 +34,8 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     mmls Evidence.dd
     ```
     Note the Start Sector of the partition (e.g., 2048).
+<img width="929" height="289" alt="image" src="https://github.com/user-attachments/assets/ee07eb69-7b8d-403e-b3ae-ee371d4484a5" />
 
-    ![mmls output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222452.png)
 
 <!-- [Insert Screenshot: Place the screenshot of mmls command output showing partition table] -->
 
@@ -43,7 +43,7 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```bash
     fsstat -o 63 Evidence.raw
     ```
-    ![fsstat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222446.png)
+<img width="941" height="880" alt="image" src="https://github.com/user-attachments/assets/5c222fcb-87ca-4f6a-845f-bd0488c94283" />
 
     <!-- [Insert Screenshot: Place the screenshot showing file system information] -->
 
@@ -52,7 +52,7 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```bash
     fls -o 63 Evidence.dd
     ```
-    ![fls output 1](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20224310.png)
+<img width="927" height="1012" alt="image" src="https://github.com/user-attachments/assets/5c07f780-3991-4478-939d-b54076da4121" />
     ![fls output 2](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222608.png)
     <!-- [Insert Screenshot: Place the screenshot showing file listing] -->
 
@@ -60,7 +60,7 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```bash
     icat evidence_disk.dd inode_number > recovered_file
     ```
-    ![icat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222954.png)
+<img width="935" height="64" alt="image" src="https://github.com/user-attachments/assets/607118d1-8459-42fb-9daa-222c3ac92f48" />
 
     <!-- [Insert Screenshot: Place the screenshot of file recovery process] -->
 
@@ -87,7 +87,7 @@ ils evidence_disk.dd
     ```bash
     istat -o 63 Evidence 6342-128-4
     ```
-![istat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222950.png)
+<img width="943" height="708" alt="image" src="https://github.com/user-attachments/assets/5db60900-384a-49e8-8323-cf478941a3dc" />
 
 ---
 
