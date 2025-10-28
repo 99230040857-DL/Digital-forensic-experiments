@@ -34,7 +34,6 @@ To create a new case in Autopsy, import a disk image as evidence, configure inge
      - Case name: `Exp5_Autopsy_Practice_<YourInitials>`
      - Examiner: `<Your Name>`
      - Case number: `EXP5-2025-<ID>`
-<img width="1008" height="608" alt="image" src="https://github.com/user-attachments/assets/c423b2cf-d9d8-48d6-aa3d-6ab2c207028e" />
 
 3. **Configure Case Database**
    - Select *Single-user database* (for practice).
